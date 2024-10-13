@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "WordPress HTML Formatter",
+    "version": "1.0",
+    "description": "Formats HTML content in the WordPress editor using custom functions.",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_title": "Format HTML"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+        "64": "icons/icon64.png",
+        "512": "icons/icon512.png"
+      }
+  }
+  
